@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/content.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- NAVIGATION -->
+
+        <div class="fContainer">
+            <nav class="wrapper">
+                <ul class="brand">
+                    <li><a href="#">sputatrix</a></li>
+                </ul>
+                <ul class="navigation">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#" id="href1" onclick="clickKoleksi()">koleksi</a></li>
+                    <li><a href="#" class="active" id="href2" onclick="clickKategori()">kategori</a></li>
+                    <form class="form-navbar">
+                        <label class="label-navbar" id="label1" onclick="clickPencarian()">pencarian : </label<br>
+                            <input class="input-navbar" type="text" placeholder="Ketik Pencarian"><br>
+                    </form>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="img-navbar">
+            <img src="Background.jpg" class="img-content" />
+        </div>
+
+        <!-- NAVIGATION END -->
+
+        <div class="fContainer2">
+            <nav class="wrapper2">
+                <ul class="brand2">
+                    <li><a href="#" id="href3" onclick="clickKategoriUlar()">kategori : ular</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <center>
+            <div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-ular/Trimeresurus insularis.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">TRIMERESURUS INSULARIS</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-ular/Tropidolaemus wagleri.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">TROPIDOLAEMUS WAGLERI</button>
+                    </div>
+                </div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-ular/Bothriechis schlegelii.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">BOTHRIECHIS SCHLEGELII</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-ular/Morelia viridis.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">MORELIA VIRIDIS</button>
+                    </div>
+                </div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-ular/Morelia boeleni.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">MORELIA BOELANI</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-ular/Leiopython albertisii.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">LEIOPYTHON ALBERTISII</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <div class="fContainer2">
+            <nav class="wrapper2">
+                <ul class="brand2">
+                    <li><a href="#" id="href4" onclick="clickKategoriKadal()">kategori : kadal</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <center>
+            <div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-kadal/Iguana.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">IGUANA</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-kadal/Hydrosaurus amboinensis.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">HYDROSAURUS AMBOINENSIS</button>
+                    </div>
+                </div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-kadal/Komodo.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">KOMODO</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-kadal/Chlamysinurus kingii.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">CHLAMYSINURUS KINGII</button>
+                    </div>
+                </div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-kadal/Bearded dragon.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">BEARDED DRAGON</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-kadal/Horned lizard.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">HORNED LIZARD</button>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <div class="fContainer2">
+            <nav class="wrapper2">
+                <ul class="brand2">
+                    <li><a href="#" id="href5" onclick="clickKategoriExotic()">kategori : exotic</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <center>
+            <div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic/Chameleon lizard.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">CHAMELEON LIZARD</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic/Axolotl.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">AXOLOTL</button>
+                    </div>
+                </div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic/Sugar glider.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">SUGAR GLIDER</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic/Hedgehog.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">HEDGEHOG</button>
+                    </div>
+                </div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic/Leopard gecko.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">LEOPARD GECKO</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic/Crocskink.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">CROCSKINK</button>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <div class="fContainer2">
+            <nav class="wrapper2">
+                <ul class="brand2">
+                    <li><a href="#" id="href6" onclick="clickKategoriExoticLaut()">kategori : exotic laut</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <center>
+            <div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic-laut/Blue dragon.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">BLUE DRAGON</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic-laut/Mediterranean aeolid.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">MEDITERRANEAN AELOID</button>
+                    </div>
+                </div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic-laut/Mandarin fish.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">MANDARIN FISH</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic-laut/Seahorse.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">SEA HORSE</button>
+                    </div>
+                </div>
+                <div class="wrapper-content">
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic-laut/Hapalochlaena.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()">HAPALOCHLAENA</button>
+                    </div>
+                    <div class="card btn-center">
+                        <img src="foto-content/foto-exotic-laut/Coconut octopus.jpg" class="img-content1-1" />
+                        <button class="btn" onclick="clickKategoriHewan()"
+                        >COCONUT OCTOPUS</button>
+                    </div>
+                </div>
+            </div>
+        </center>
+
+        <!-- NAVBAR END -->
+
+        <div class="fContainer">
+            <nav class="wrapper1">
+            </nav>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
